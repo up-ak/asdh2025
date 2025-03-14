@@ -30,6 +30,8 @@ Zhvillimi i një aplikacioni interaktiv për menaxhimin e kontakteve nëpërmjet
 
 - Implementimi i një menyu interaktive për shtimin, modifikimin dhe listimin e kontakteve.
 
+- Menaxhimi i memorjes për të shmangur memory leak.
+
 ## Shembull
 
 ```
@@ -40,8 +42,6 @@ Zgjidhni opsionin:
 3 - listo
 4 - perfundo
 ```
-
-- Menaxhimi i memorjes për të shmangur rrjedhjet e memorjes.
 
 ## Sfida Shtesë
 
