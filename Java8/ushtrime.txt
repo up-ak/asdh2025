@@ -1,0 +1,27 @@
+Të shkruhet programi sipas kërkesave në vijim:
+a. [0.5 pikë] Të deklarohet një listë e cila mund të ruaj numra jo të plotë
+b. [1 pikë] Të lexohen 6 numra jo të plotë nga tastiera
+c. [1 pikë] Përgjatë leximit të numrave, nëse numri i lexuar është në rangun 2.0 – 2.9, numri të
+shtohet në fund të listës, në të kundërt numri të shtohet në fillim
+d. [1.5 pikë] Pas mbushjes së listës me numra, të largohen nga lista vetëm numrat që gjenden në
+rangun 2.0 – 2.9 dhe të printohen numrat e larguar.
+e. [1 pikë] Të printohen vlerat e mbetura brenda listës.
+
+Të shkruhet programi sipas kërkesave në vijim:
+a. [2 pikë] Të definohet funksioni void printo(list<int> l), i cili printon elementet brenda një liste të lidhur.
+b. [5 pikë] Të definohet funksioni void modifiko, i cili pranon një listë me numra të plotë dhe një parametër
+tjetër të tipit karakter me emër operacioni. Në rast se vlera e parametrit operacioni është ‘F’, të largohet
+elementi i cili gjendet në fillim të listës së lidhur. Në rast se vlera e parametrit operacioni është ‘B’, të
+largohet elementi i cili gjendet në fund të listës së lidhur. Në rastin kur vlera e parametrit operacioni është
+‘R’, të ndryshojë radhitja e elementeve nga fundi në fillim.
+c. [1 pikë] Brenda funksionit main, të deklarohet një listë e lidhur e cila mund të ruaj numra të plotë dhe një
+variabël tjetër madhësia, që po ashtu ruan një numër të plotë.
+d. [2 pikë] Të lexohet vlera e variablës madhësia nga tastiera, e cila përcakton se sa numra do të lexohen nga
+tastiera dhe të shtohen brenda listës së lidhur.
+e. [2 pikë] Pas mbushjes së listës së lidhur me vlera të thirret për secilin nga operatorët e mundshëm
+funksioni modifiko, ku pas secilit modifikim thirret edhe funksioni printo.
+
+Të zhvillohet një program për menaxhimin e një liste detyrash përmes një klase që përdor një listë të lidhur.
+a. Të definohet klasa MenaxheriDetyrave që përmban një listë të lidhur të strings. Të implementohet metoda shtoDetyre(const string& detyra) për shtimin e detyrave në fund të listës.
+b. Të implementohet metoda hiqDetyre(const string& fjaleKyce) për heqjen e detyrave që përmbajnë fjalen kyçe të dhënë, dhe shfaqDetyrat() për të printuar të gjitha detyrat në listë.
+c. Në main(), të krijohet një instancë e MenaxheriDetyrave, të lexohet numri i detyrave dhe të shtohen përmes metodës shtoDetyre. Pas shtimit, të kërkohet një fjale kyçe për heqjen e detyrave përkatëse dhe të shfaqen detyrat e mbetura.
